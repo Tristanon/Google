@@ -1,0 +1,91 @@
+body{
+    background-color: white;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+#function{
+    font-size: 12px;
+    margin-right: 10px;
+    margin-bottom: 40px;
+}
+
+.google {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -20px;
+    width: 200px;
+}
+
+.image {
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12.5px;
+    width: 134px;
+}
+
+form{
+    text-align: center;
+}
+
+input{
+    font-size: 10px;
+    width: 280px;
+    height: 20px;
+    border: 0.5px solid black;
+    border-radius: 15px;
+    margin: 8px;
+    padding: 0px 23px;
+    z-index: -1;
+}
+
+#custom{
+    justify-content: center;
+    margin-top: 6px;
+    margin-left: -20px;
+}
+
+button{
+    width: 80px;
+    height: 20px;
+    background-color: #D3D3D3;
+    border-radius: 3px;
+    box-sizing: border-box;
+    font-size: 8px;
+    margin-right: 16px;
+    border: none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+button:hover {
+    background-color: #A9A9A9;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: black;
+  }
